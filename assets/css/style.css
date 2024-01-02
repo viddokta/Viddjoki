@@ -90,9 +90,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -152,9 +149,6 @@ body {
 ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -225,10 +219,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #HEADER
@@ -338,10 +328,6 @@ body {
   pointer-events: all;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -377,9 +363,6 @@ body {
   font-size: var(--fs-8);
   margin-block-end: 30px;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -419,9 +402,6 @@ body {
 }
 
 .stats-text { font-size: var(--fs-8); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -488,9 +468,6 @@ body {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #FEATURE
 \*-----------------------------------*/
@@ -524,9 +501,6 @@ body {
   max-width: max-content;
   margin-inline: auto;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -598,7 +572,6 @@ body {
   margin-inline-start: auto;
 }
 
-
 /*-----------------------------------*\
   #CONTACT-US
 \*-----------------------------------*/
@@ -623,12 +596,21 @@ body {
   color: var(--purple-navy);
 }
 
-.contact-form input,
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--purple-navy);
+  border-radius: var(--radius-4);
+}
+
 .contact-form textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid var(--purple-navy);
   border-radius: var(--radius-4);
+  /* Tambahkan aturan untuk memperbesar area teks pesan */
+  height: 120px;
+  resize: vertical; /* Ini memastikan textarea hanya dapat diubah tingginya */
 }
 
 .contact-form button {
@@ -736,9 +718,6 @@ body {
 .copyright-link:is(:hover, :focus) { text-decoration: none; }
 
 
-
-
-
 /*-----------------------------------*\
   #GO TO TOP
 \*-----------------------------------*/
@@ -764,10 +743,6 @@ body {
   opacity: 1;
   transform: translateY(-15px);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #MEDIA QUERIES
@@ -845,10 +820,6 @@ body {
 
 }
 
-
-
-
-
 /**
  * responsive for larger than 768px screen
  */
@@ -891,7 +862,6 @@ body {
   .service-list { grid-template-columns: 1fr 1fr; }
 
 
-
   /**
    * FEATURES
    */
@@ -905,7 +875,6 @@ body {
   }
 
 
-
   /**
    * FOOTER
    */
@@ -913,10 +882,6 @@ body {
   .footer-top .container { grid-template-columns: repeat(3, 1fr); }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
