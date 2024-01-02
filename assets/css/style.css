@@ -599,7 +599,51 @@ body {
 }
 
 
+/*-----------------------------------*\
+  #CONTACT-US
+\*-----------------------------------*/
 
+/* Contact Us Section */
+#contact {
+  padding-block: var(--section-padding);
+}
+
+.contact-form {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-form label {
+  font-size: var(--fs-7);
+  color: var(--purple-navy);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--purple-navy);
+  border-radius: var(--radius-4);
+}
+
+.contact-form button {
+  background-color: var(--winter-sky);
+  color: var(--white);
+  padding: 12px 20px;
+  border: none;
+  border-radius: var(--radius-4);
+  cursor: pointer;
+  transition: var(--transition-2);
+}
+
+.contact-form button:hover {
+  background-color: var(--razzmatazz);
+}
 
 
 /*-----------------------------------*\
