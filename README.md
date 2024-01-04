@@ -38,7 +38,7 @@ git clone https://github.com/viddokta/Viddjoki.git
 
 ### Contact
 
-If you want to contact with me you can reach me at [Via Gmail] <a href="mailto:davidokta56@gmail.com?">davidokta56@gmail.com</a>.
+If you want to contact with me you can reach me at [Mail](mailto:davidokta56@gmail.com?).
 
 ### License
 
