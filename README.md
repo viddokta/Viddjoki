@@ -1,6 +1,4 @@
 <div align="center">
-  
-  <br />
 
   <h2 align="center">ViddJoki - Agency website</h2>
 
