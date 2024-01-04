@@ -9,11 +9,11 @@
   <br />
   <br />
 
-  <h2 align="center">Desinic - Agency website</h2>
+  <h2 align="center">ViddJoki - Agency website</h2>
 
   Desinic is fully responsive agency website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/desinic/"><strong>➥ Live Demo</strong></a>
+  <a href="https://viddjoki.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
